@@ -69,7 +69,7 @@ string[] SortingArray(string[] array)
     return sortingArray;
 }
 
-Console.WriteLine("Выводим первоначальный рандомный массив: ");
+Console.WriteLine("Выводим первоначальный массив: ");
 PrintArray(arr);
 Console.WriteLine("Выводим отсортированный массив с длинной не более 3 символов в элементе: ");
 string[] sortingArray = SortingArray(arr);
